@@ -4,7 +4,7 @@
 
 Another important representation of the hyperbolic plane is the **[Beltrami–Klein model](https://en.wikipedia.org/wiki/Beltrami%E2%80%93Klein_model)**, also known as the projective model of hyperbolic geometry. Unlike the Poincaré disk model, the Beltrami–Klein model is not [conformal](https://en.wikipedia.org/wiki/Conformal_map), meaning it does not preserve angles. However, it offers other advantages, particularly in how it represents geodesics.
 
-In one of the [earlier chapters](/docs/I/basic-mathematics-in-the-poincare-disk-model.md), we introduced the Poincaré disk model, derived by projecting the upper sheet of a two-sheeted [hyperboloid](https://en.wikipedia.org/wiki/Hyperboloid) onto the unit disk in the plane %%z = 0%%. The Beltrami–Klein model is constructed in a similar way, but instead of projecting onto the plane %%z = 0%%, we project the upper sheet of the hyperboloid onto the plane %%z = 1%%. This subtle change leads to a model with distinct geometric properties.
+In one of the [earlier chapters](I/basic-mathematics-in-the-poincare-disk-model.md), we introduced the Poincaré disk model, derived by projecting the upper sheet of a two-sheeted [hyperboloid](https://en.wikipedia.org/wiki/Hyperboloid) onto the unit disk in the plane %%z = 0%%. The Beltrami–Klein model is constructed in a similar way, but instead of projecting onto the plane %%z = 0%%, we project the upper sheet of the hyperboloid onto the plane %%z = 1%%. This subtle change leads to a model with distinct geometric properties.
 
 This [animation](https://www.youtube.com/watch?v=9D9AAcbflbU) illustrates the relationship between the Beltrami–Klein and the Poincaré disk models beautifully.
 

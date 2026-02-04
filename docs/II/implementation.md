@@ -1,6 +1,6 @@
 # Implementation
 
-In this chapter, we describe the implementation of a hyperbolic tiling system in Java. We explore how to combine [isometries](/docs/I/isometries.md), a [coordinate system](/docs/II/coordinates_system.md), and some fundamental mathematical tools to construct a dynamic and interactive 2D representation of hyperbolic space.
+In this chapter, we describe the implementation of a hyperbolic tiling system in Java. We explore how to combine [isometries](I/isometries.md), a [coordinate system](II/coordinates_system.md), and some fundamental mathematical tools to construct a dynamic and interactive 2D representation of hyperbolic space.
 
 ## Overview
 
@@ -95,7 +95,7 @@ To render the hyperbolic tiling beyond the central tile, we need to generate all
 
 The generation of neighbors is done iteratively by expanding layers of adjacency around the center. Each chunk has a fixed number of sides (in our case, four), and each side corresponds to a possible direction toward a neighboring chunk.
 
-To find a neighboring chunk in a given direction, we use **reflection**. This operation is covered in the [isometries](/docs/I/isometries.md) chapter: each edge of a polygon defines a mirror line. Reflecting the tile across this line gives the adjacent tile in that direction. By repeating this process across different edges and tiles, we can navigate the infinite structure of hyperbolic space.
+To find a neighboring chunk in a given direction, we use **reflection**. This operation is covered in the [isometries](I/isometries.md) chapter: each edge of a polygon defines a mirror line. Reflecting the tile across this line gives the adjacent tile in that direction. By repeating this process across different edges and tiles, we can navigate the infinite structure of hyperbolic space.
 
 ### Neighbor Expansion by Depth
 
