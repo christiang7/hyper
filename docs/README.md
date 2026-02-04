@@ -115,30 +115,30 @@ To run the 2D Gnomonic projection model, run the command
 
 ### 0. Project Setup
 
-- A. [How to Run the Project](docs/running-the-project.md)
+- A. [How to Run the Project](running-the-project.md)
 - B. [How to contribute](.github/CONTRIBUTING.md)
-- C. [What for?](docs/what_for.md)
+- C. [What for?](what_for.md)
 
 ### I. Foundations in Hyperbolic Geometry
 
-- A. [Introduction](docs/I/introduction.md)
-- B. [Poincaré Disk Model](docs/I/basic-mathematics-in-the-poincare-disk-model.md)
-- C. [Isometries](docs/I/isometries.md)
+- A. [Introduction](I/introduction.md)
+- B. [Poincaré Disk Model](I/basic-mathematics-in-the-poincare-disk-model.md)
+- C. [Isometries](I/isometries.md)
 
 ### II. Tessellations
 
-- A. [Introduction to Tessellation](docs/II/introduction_to_tesslation.md)
-- B. [Coordinate System](docs/II/coordinates_system.md)
-- C. [Implementation](docs/II/implementation.md)
+- A. [Introduction to Tessellation](II/introduction_to_tesslation.md)
+- B. [Coordinate System](II/coordinates_system.md)
+- C. [Implementation](II/implementation.md)
 
 ### III. 3D Rendering
 
 - A. Ray-Caster Maze (WIP)
-- B. [Visual effects](docs/III/3d-effects.md)
+- B. [Visual effects](III/3d-effects.md)
 
 ### IV. In-Depth Explorations
 
-- A. [Other Models](docs/IV/other_models.md)
+- A. [Other Models](IV/other_models.md)
 
 ## Licence
 
