@@ -29,7 +29,7 @@ tool: [the Poincaré disk model](https://en.wikipedia.org/wiki/Poincar%C3%A9_dis
 ## The Poincaré disk model
 
 <div align=center style="text-align: center;">
-    <img width="550" src="./docs/disk.svg"/>
+    <img width="550" src="I/disk.svg"/>
 </div>
 
 In the [Poincaré disk](https://en.wikipedia.org/wiki/Poincar%C3%A9_disk_model), the entire infinite hyperbolic plane is
