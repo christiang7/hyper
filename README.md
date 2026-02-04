@@ -41,7 +41,9 @@ To run the 3D view, run the command
 ./gradlew run
 ```
 
-[filename](/docs/441708765-5156987d-9099-42a6-9bd4-1a86abcd819e.mp4 ':include :type=iframe')
+![filename](/docs/441708765-5156987d-9099-42a6-9bd4-1a86abcd819e.mp4 ':include :type=iframe')
+
+![filename](/docs/441708765-5156987d-9099-42a6-9bd4-1a86abcd819e.mp4)
 
 https://github.com/user-attachments/assets/5156987d-9099-42a6-9bd4-1a86abcd819e
 
