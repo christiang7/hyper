@@ -1,6 +1,8 @@
 # Understanding 3D Visual Effects in Hyperbolic Geometry
 
-https://github.com/user-attachments/assets/5156987d-9099-42a6-9bd4-1a86abcd819e
+![file](441708765-5156987d-9099-42a6-9bd4-1a86abcd819e.mp4 ':include :type=iframe')
+
+[Source](https://github.com/user-attachments/assets/5156987d-9099-42a6-9bd4-1a86abcd819e)
 
 In the 3D rendering engine, two striking visual effects consistently appear when the viewpoint moves: an apparent **rotation during lateral movement**, and a **zooming effect when moving forward**. While these phenomena may seem strange to an observer used to Euclidean geometry, they arise naturally from the fundamental properties of hyperbolic space.
 

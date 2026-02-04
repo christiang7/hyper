@@ -1,23 +1,23 @@
 # Implementation
 
-In this chapter, we describe the implementation of a hyperbolic tiling system in Java. We explore how to combine [isometries](../I/isometries.md), a [coordinate system](./coordinates_system.md), and some fundamental mathematical tools to construct a dynamic and interactive 2D representation of hyperbolic space.
+In this chapter, we describe the implementation of a hyperbolic tiling system in Java. We explore how to combine [isometries](/docs/I/isometries.md), a [coordinate system](/docs/II/coordinates_system.md), and some fundamental mathematical tools to construct a dynamic and interactive 2D representation of hyperbolic space.
 
 ## Overview
 
-Hyperbolic space allows infinitely many types of tessellations. However, for a given `{p,q}` tessellation — where `p` is the number of polygon sides and `q` is the number of polygons meeting at each vertex — all such tilings must be of consistent size and shape.
+Hyperbolic space allows infinitely many types of tessellations. However, for a given %%\{p,q\}%% tessellation — where %%p%% is the number of polygon sides and %%q%% is the number of polygons meeting at each vertex — all such tilings must be of consistent size and shape.
 
-We model the hyperbolic plane within a Euclidean coordinate system by embedding it in a unit disk. The center of this disk is denoted as $C_\infty$, and all transformations (rotations, translations) are applied relative to this center.
+We model the hyperbolic plane within a Euclidean coordinate system by embedding it in a unit disk. The center of this disk is denoted as %%C_\infty%%, and all transformations (rotations, translations) are applied relative to this center.
 
 ## Tile Initialization
 
-We begin by constructing the initial tile (a quadrilateral, for simplicity) centered at $C_\infty$. This tile is defined by:
+We begin by constructing the initial tile (a quadrilateral, for simplicity) centered at %%C_\infty%%. This tile is defined by:
 
 - **4 vertices**: the corners of the polygon in Euclidean coordinates,
 - **a list of directions**: which define neighboring tiles.
 
 These two elements are stored in a structure we call a _chunk_.
 
-To compute the distance from the center $C_\infty$ to a vertex of the central polygon, we use the following formula:
+To compute the distance from the center %%C_\infty%% to a vertex of the central polygon, we use the following formula:
 
 $$
 d = \sqrt{\frac{\tan\left(\frac{\pi}{2} - \frac{\pi}{q}\right) - \tan\left(\frac{\pi}{p}\right)}{\tan\left(\frac{\pi}{2} - \frac{\pi}{q}\right) + \tan\left(\frac{\pi}{p}\right)}}
@@ -95,7 +95,7 @@ To render the hyperbolic tiling beyond the central tile, we need to generate all
 
 The generation of neighbors is done iteratively by expanding layers of adjacency around the center. Each chunk has a fixed number of sides (in our case, four), and each side corresponds to a possible direction toward a neighboring chunk.
 
-To find a neighboring chunk in a given direction, we use **reflection**. This operation is covered in the [isometries](../I/isometries.md) chapter: each edge of a polygon defines a mirror line. Reflecting the tile across this line gives the adjacent tile in that direction. By repeating this process across different edges and tiles, we can navigate the infinite structure of hyperbolic space.
+To find a neighboring chunk in a given direction, we use **reflection**. This operation is covered in the [isometries](/docs/I/isometries.md) chapter: each edge of a polygon defines a mirror line. Reflecting the tile across this line gives the adjacent tile in that direction. By repeating this process across different edges and tiles, we can navigate the infinite structure of hyperbolic space.
 
 ### Neighbor Expansion by Depth
 

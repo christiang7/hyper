@@ -1,4 +1,4 @@
-# introduction
+# Introduction
 
 ## Introduction to Euclidean Geometry & Beyond
 
@@ -28,7 +28,9 @@ tool: [the Poincaré disk model](https://en.wikipedia.org/wiki/Poincar%C3%A9_dis
 
 ## The Poincaré disk model
 
-![poincaré disk model](/docs/disk.svg)
+<div align=center style="text-align: center;">
+    <img width="550" src="./docs/disk.svg"/>
+</div>
 
 In the [Poincaré disk](https://en.wikipedia.org/wiki/Poincar%C3%A9_disk_model), the entire infinite hyperbolic plane is
 compressed into the interior of a circle. But there’s a catch—the edge of the circle represents points at infinity. Just

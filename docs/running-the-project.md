@@ -10,12 +10,12 @@ Before starting, make sure you have:
 ## Installation
 
 1. **Clone the project**
-   ```sh
+   ```bash
    git clone https://github.com/CoCoSol007/hyper.git
    cd hyper
    ```
 2. **Grant execution permission to the Gradle wrapper (Linux/Mac)**
-   ```sh
+   ```bash
    chmod +x gradlew
    ```
 
@@ -24,7 +24,7 @@ Before starting, make sure you have:
 ### Using the Gradle Wrapper (recommended)
 
 - **On Linux/Mac**:
-  ```sh
+  ```bash
   ./gradlew run
   ```
 - **On Windows**:
@@ -36,21 +36,21 @@ Before starting, make sure you have:
 
 You can use the command:
 
-```sh
+```bash
 gradle run
 ```
 
 ## Other Useful Commands
 
 - **Build the project**:
-  ```sh
+  ```bash
   ./gradlew build
   ```
 - **Clean generated files**:
-  ```sh
+  ```bash
   ./gradlew clean
   ```
 - **Run tests**:
-  ```sh
+  ```bash
   ./gradlew test
   ```
