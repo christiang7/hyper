@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<svg height="500" width="700" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<line x1="0" y1="500" x2="700" y2="500" stroke="grey"/>
+<line x1="0" y1="413.3974596" x2="700" y2="413.3974596" stroke="grey"/>
+<line x1="0" y1="326.7949192" x2="700" y2="326.7949192" stroke="grey"/>
+<line x1="0" y1="240.1923789" x2="700" y2="240.1923789" stroke="grey"/>
+<line x1="0" y1="153.5898385" x2="700" y2="153.5898385" stroke="grey"/>
+<line x1="0" y1="66.98729811"  x2="700" y2="66.98729811" stroke="grey"/>
+
+<line x1="-250" y1="500" x2="38.67513459" y2="0" stroke="grey"/>
+<line x1="-150" y1="500" x2="138.67513459" y2="0" stroke="grey"/>
+<line x1="-50" y1="500" x2="238.67513459" y2="0" stroke="grey"/>
+<line x1="50" y1="500" x2="338.67513459" y2="0" stroke="grey"/>
+<line x1="150" y1="500" x2="438.67513459" y2="0" stroke="grey"/>
+<line x1="250" y1="500" x2="538.67513459" y2="0" stroke="grey"/>
+<line x1="350" y1="500" x2="638.67513459" y2="0" stroke="grey"/>
+<line x1="450" y1="500" x2="738.67513459" y2="0" stroke="grey"/>
+<line x1="550" y1="500" x2="838.67513459" y2="0" stroke="grey"/>
+<line x1="650" y1="500" x2="938.67513459" y2="0" stroke="grey"/>
+
+<line x1="50" y1="500" x2="-238.67513459" y2="0" stroke="grey"/>
+<line x1="150" y1="500" x2="-138.67513459" y2="0" stroke="grey"/>
+<line x1="250" y1="500" x2="-38.67513459" y2="0" stroke="grey"/>
+<line x1="350" y1="500" x2="61.32486541" y2="0" stroke="grey"/>
+<line x1="450" y1="500" x2="161.32486541" y2="0" stroke="grey"/>
+<line x1="550" y1="500" x2="261.32486541" y2="0" stroke="grey"/>
+<line x1="650" y1="500" x2="361.32486541" y2="0" stroke="grey"/>
+<line x1="750" y1="500" x2="461.32486541" y2="0" stroke="grey"/>
+<line x1="850" y1="500" x2="561.32486541" y2="0" stroke="grey"/>
+<line x1="950" y1="500" x2="661.32486541" y2="0" stroke="grey"/>
+</svg>
