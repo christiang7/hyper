@@ -1,7 +1,7 @@
 <!-- _navbar.md -->
 
 * [Home](README.md)
-*  [O. Project Setup](running-the-project.md)
+* [O. Project Setup](running-the-project.md)
 
     * [A. How to Run the Project](running-the-project.md)
     * [B. How to contribute](.github/CONTRIBUTING.md)
